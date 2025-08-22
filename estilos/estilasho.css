@@ -1,0 +1,149 @@
+body {
+    background-color: #74695d;
+}
+
+@font-face {
+    font-family: 'moresugar';
+    src: url('MoreSugar-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('lora.regular.ttf') format(truetype);
+}
+
+h1 {
+    padding: 10px;
+}
+
+header {
+    display: flex; /* Flexbox para organizar los elementos en una fila horizontal */
+    align-items: center; /* Centra verticalmente los elementos dentro del header */
+    background-color: #333; /* Color del encabezado */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color:rgb(226, 165, 52)
+}
+
+img {
+    margin-right: 10px; /* Espaciado entre la imagen del logo y el texto "VEGATITOS" */
+}
+
+h1 {
+    margin: 0; /* Elimina márgenes innecesarios */
+    font-family: "Moresugar", sans-serif;
+    color: white;
+}
+
+nav {
+    margin-left: auto;
+    background-color: #333; /* Color de fondo del menú */
+    color: white; /* Color del texto en el menú */
+    padding: 10px 30px; /* Espaciado interno del menú */
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    font-family: "Lora", serif;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: none; /* Agrega un subrayado al pasar el mouse */
+}
+
+form {
+    padding-top: 25px;
+    margin-right: 58px;
+}
+/* Contenedor principal para el párrafo y el mapa */
+.contenedor {
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    align-items: flex-start; /* Alinea al inicio verticalmente */
+    gap: 20px; /* Espacio entre el párrafo y el mapa */
+    text-align: justify;
+}
+
+/* Estilos para el párrafo */
+.parrafo1 {
+    font-family: Arial, sans-serif;
+    flex: 1;
+    color: white;
+    margin-left: 11px;
+    margin-right: 40px;
+}
+
+.parrafo1 a {
+    color: rgb(248, 137, 137);
+}
+
+.parrafo1 button {
+    border-radius: 15px;
+    margin-left: 5px;
+    border: none;
+}
+/* Estilos para el mapa */
+.a {
+    width: 400px;
+    height: 300px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+
+.nosexd {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.eventos {
+    margin-top: 20px;
+    flex: 1;
+}
+
+/* Contenedor principal para el párrafo y el mapa */
+.contenedor2 {
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    align-items: flex-start; /* Alinea al inicio verticalmente */
+    gap: 20px; /* Espacio entre el párrafo y el mapa */
+}
+
+.mapa {
+    padding-top: 15px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.contenedor3 {
+    color:white;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.img {
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+
+.help {
+    margin-left: 158px;
+    color: white;
+    font-family: 'lora';
+    margin-bottom: 50px;
+}

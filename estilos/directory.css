@@ -1,0 +1,94 @@
+body {
+    background-color: #74695d;
+}
+
+@font-face {
+    font-family: 'moresugar';
+    src: url('MoreSugar-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('lora.regular.ttf') format(truetype);
+}
+
+h1 {
+    padding: 10px;
+}
+
+header {
+    display: flex; /* Flexbox para organizar los elementos en una fila horizontal */
+    align-items: center; /* Centra verticalmente los elementos dentro del header */
+    background-color: #333; /* Color del encabezado */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color:rgb(226, 165, 52)
+}
+
+img {
+    margin-right: 10px; /* Espaciado entre la imagen del logo y el texto "VEGATITOS" */
+}
+
+h1 {
+    margin: 0; /* Elimina márgenes innecesarios */
+    font-family: "Moresugar", sans-serif;
+    color: white;
+}
+
+nav {
+    margin-left: auto;
+    background-color: #333; /* Color de fondo del menú */
+    color: white; /* Color del texto en el menú */
+    padding: 10px 30px; /* Espaciado interno del menú */
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    font-family: "Lora", serif;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: none; /* Agrega un subrayado al pasar el mouse */
+}
+
+form {
+    padding-top: 25px;
+    margin-right: 58px;
+}
+
+.con {
+    color: white;
+    font-family: 'lora';
+    margin-top: 46px;
+    margin-left: 153px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.help {
+    margin-left: 160px;
+    color: white;
+    font-family: 'lora';
+    margin-bottom: 50px;
+}
+
+.directorio{
+    border-radius: 15px;
+    display: inline-block;
+    width: 280px;
+    height: 620px;
+    margin-left: 20px;
+}
